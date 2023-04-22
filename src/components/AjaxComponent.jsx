@@ -42,7 +42,7 @@ export const AjaxComponent = () => {
                 setUsers(data)
             }, (error) => {
                 console.log(error);
-                setError(error.message);
+                setErrores(error.message);
             }
         );
     };
