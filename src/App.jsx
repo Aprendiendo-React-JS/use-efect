@@ -1,6 +1,7 @@
 import bravoLogo from './assets/bravo.png'
 import './App.css'
-import { MiPrimerEstado } from './components/MiPrimerEstado'
+import { UseEfectComponent } from './components/UseEfectComponent'
+import { AjaxComponent } from './components/AjaxComponent'
 
 function App() {
 
@@ -16,8 +17,9 @@ function App() {
         Estados React JS - Hook useState
       </h3>
 
-      <MiPrimerEstado/>
+      <UseEfectComponent/>
       
+      <AjaxComponent/>
     </>
   )
 }
