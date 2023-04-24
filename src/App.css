@@ -19,25 +19,18 @@ input {
   padding: 0.5em;
 }
 
+.rojo {
+  background-color: red;
+}
+
+.verde {
+  background-color: green;
+}
+
 .label {
   color: #fff;
   border-radius: 5px;
-  border: solid 1px #fff;
-  padding: 1em 5em;
-  bottom: 2em;
-}
-
-.button-control {
-  margin: 2em;
-  padding: 0.5em;
-}
-
-.label-green {
-  background-color: #78f314;
-  color: #101010;
-  border-radius: 0px;
-  padding: 1em 5em;
-  top: 20px;
+  padding: 5px
 }
 
 @keyframes logo-spin {
